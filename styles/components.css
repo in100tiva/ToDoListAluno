@@ -1,0 +1,143 @@
+#headerTasks button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid #c1c1c1;
+    background-color: #ff5252;
+    font-size: 12px;
+    font-weight: 600;
+    color: #1c1c1c;
+    transition: 0.3s;
+}
+
+#headerTasks button:hover {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+#inputTasks input {
+    padding: 0.5rem 1rem;
+    flex: 4;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #c1c1c1;
+}
+
+#inputTasks button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid #c1c1c1;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#tasks div, #tasksConcluidas div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    gap: 0.3rem;
+}
+
+.task-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.task-item:hover {
+    background-color: #e0e0e0;
+}
+
+#tasks span, #tasks button, #tasksConcluidas span, #tasksConcluidas button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+#tasks span, #tasksConcluidas span, #tasksConcluidas p {
+    flex: 4;
+}
+
+#tasks button, #tasksConcluidas button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid #c1c1c1;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#tasks button:hover, #tasksConcluidas button:hover {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+#containerForm h1 {
+    margin: 1rem 0rem;
+}
+
+#containerForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerForm input, #containerForm button {
+    padding: 0.5rem 1rem;
+}
+
+#containerForm input {
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #c1c1c1;
+}
+
+#containerForm button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid #c1c1c1;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#concluidos div {
+    background-color: #5ad786;
+}
+
+#concluidos p {
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: line-through;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+#concluidos h3 {
+    margin: 0.4rem 0;
+    width: 100%;
+    border-bottom: 1px solid #5ad786;
+    padding: 0.2rem 0;
+}
+
+.task-item.completed {
+    background-color: #5ad786;
+}
+
+.task-item.completed:hover {
+    background-color: #4ac776;
+}
+
+.task-checkbox {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.task-item.completed .task-checkbox {
+    cursor: default;
+}

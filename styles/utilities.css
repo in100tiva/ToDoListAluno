@@ -1,0 +1,35 @@
+.btn-ok {
+    background-color: #5ad786;
+    color: #f9f9f9;
+}
+
+.btn-ok:hover {
+    background-color: #5ad786;
+    color: #f9f9f9;
+}
+
+.btn-default {
+    background-color: #f9f9f9;
+    color: #1c1c1c;
+}
+
+.btn-default:hover {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+.btn-warn {
+    background-color: #ff5252;
+    color: #1c1c1c;
+}
+
+.btn-warn:hover {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+.error {
+    color: #ff5252;
+    font-size: 12px;
+    margin: 0rem 0.4rem;
+}
